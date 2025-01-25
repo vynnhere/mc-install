@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo Minecraft Launcher Installer
+wget https://launcher.mojang.com/download/Minecraft.tar.gz -P ~/Desktop/mc
+tar -xvzf ~/Desktop/mc/Minecraft.tar.gz -C ~/Desktop/mc/
+rm ~/Desktop/mc/Minecraft.tar.gz
+echo Downloaded minecraft launcher!
